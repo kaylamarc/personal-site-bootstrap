@@ -249,6 +249,18 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+.special-anchor {
+  color: #838c94;  
+  text-decoration: underline;
+  text-decoration-color: #a36cff;
+}
+
+.special-anchor:hover {
+  color:#FFF038;
+  text-decoration: underline;
+  
+}
+
 pre,
 code,
 kbd,
